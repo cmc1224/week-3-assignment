@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fast Food Original Locations</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="title">
+            Fast Food Original Locations
+        </div>
+        <div class="description">
+            Using an article from mental floss, this is a map of popular fast food chains' original location.
+        </div>
+        <div class="description">
+            Click to see the chain, address, and year it opened.
+        </div>
+        <div class="description">
+            Locations that are still operational have green markers, those no longer operational have red markers.
+        </div>
+
+
+        <!-- HTML !-->
+        <button id="fly-to-east-coast" class="button-28" role="button">Fly to the East Coast</button>
+        <button id="fly-to-west-coast" class="button-28" role="button">Fly to the West Coast</button>
+        <button id="fly-to-midwest" class="button-28" role="button">Fly to the Midwest</button>
+        <button id="fly-to-the-south" class="button-28" role="button">Fly to the South</button>
+
+
+
+
+    </div>
+
+    <div id="map"></div>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
