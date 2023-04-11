@@ -259,9 +259,9 @@ const map = new mapboxgl.Map({
 
 originalLocation.forEach(function (_Restaurant) {
     // create the popup
-    const popup = new mapboxgl.Popup({ offset: 25 }).setText(
+    const popup = new mapboxgl.Popup({ offset: 25}).setText(
         `The original ${_Restaurant['restaurant_chain']} opened at ${_Restaurant['address']} in ${_Restaurant['year_opened']}.`
-    );
+    )
 
     // figure out the color of the marker based on the program variable
 
@@ -291,26 +291,30 @@ originalLocation.forEach(function (_Restaurant) {
 
 $('#fly-to-west-coast').on('click', function() {
     map.flyTo({
-        center:[-116.65593160519431,42.26800326063527]
+        center:[-116.65593160519431,42.26800326063527],
+        zoom: 4,
     })
 })
 
 $('#fly-to-east-coast').on('click', function() {
     map.flyTo({
-        center: [-79.86803275316097, 37.80889269035391]
+        center: [-79.86803275316097, 37.80889269035391],
+        zoom: 4,
     })
 })
 
 
 $('#fly-to-midwest').on('click', function() {
     map.flyTo({
-        center: [-102.59639798451622,44.38735352147347]
+        center: [-102.59639798451622,44.38735352147347],
+        zoom: 4,
     })
 })
 
 
 $('#fly-to-the-south').on('click', function() {
     map.flyTo({
-        center: [-90.212352826406, 34.215645980651786]
+        center: [-90.212352826406, 34.215645980651786],
+        zoom: 4,
     })
 })
