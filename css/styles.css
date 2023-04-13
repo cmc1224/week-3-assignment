@@ -15,7 +15,23 @@ body {
     bottom: 0;
     width: 100%;
 }
-  
+
+.legend-key {
+    display: inline-block;
+    border-radius: 20%;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
 .sidebar {
     position: absolute;
     width: 300px;
@@ -84,4 +100,3 @@ body {
     box-shadow: none;
     transform: translateY(0);
 }
-

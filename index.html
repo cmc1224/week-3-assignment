@@ -31,12 +31,23 @@
         <button id="fly-to-midwest" class="button-28" role="button">Fly to the Midwest</button>
         <button id="fly-to-the-south" class="button-28" role="button">Fly to the South</button>
 
+        <div class = "map-overlay" id = "legend">
+            <div>
+                <span class = "legend-key" style ="background-color:#258f2e"></span>
+                <span>Still Operational</span>
+            </div>
+            <div>
+                <span class = "legend-key" style ="background-color:#a61c1c"></span>
+                <span>No Longer Operational</span>
+            </div>
+        </div>
 
 
 
     </div>
 
     <div id="map"></div>
+
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
