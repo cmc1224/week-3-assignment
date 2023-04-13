@@ -269,143 +269,131 @@ originalLocation.forEach(function (_Restaurant) {
     //logo markers
     const el = document.createElement('div');
     el.className = 'marker';
-        if (_Restaurant['restaurant_chain'] === "McDonald's") {
-            el.style.backgroundImage = "URL('https://logos-download.com/wp-content/uploads/2016/03/McDonalds_Logo_2018.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Pizza Hut") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/sco/d/d2/Pizza_Hut_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "T.G.I. Friday's") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/4/44/Tgi_fridays_logo13.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Waffle House") {
-            el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Waffle_House/Waffle_House-Logo.wine.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Dunkin' Donuts") {
-            el.style.backgroundImage = "URL('https://logotyp.us/files/dunkin-donuts.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Starbucks") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Chipotle Mexican Grill") {
-            el.style.backgroundImage = "URL('https://cdn.worldvectorlogo.com/logos/chipotle-mexican-grill.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Nathan's Famous ") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/7/75/Nathan%27s_Famous.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Wendy's") {
-            el.style.backgroundImage = "URL('https://brandeps.com/logo-download/W/Wendys-logo-vector-01.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Hooters") {
-            el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Hooters/Hooters-Logo.wine.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Blimpie") {
-            el.style.backgroundImage = "URL('https://cdn.freebiesupply.com/logos/large/2x/blimpie-2-logo-svg-vector.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Taco Bell") {
-            el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Taco_Bell/Taco_Bell-Logo.wine.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Burger King") {
-            el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Burger_King/Burger_King-Logo.wine.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Sbarro's") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/e/ef/Sbarro_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "White Castle") {
-            el.style.backgroundImage = "URL('https://static.wikia.nocookie.net/logopedia/images/1/13/White_Castle_1.svg/')";
-        }
-
-
-        if (_Restaurant['restaurant_chain'] === "Sonic") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/f/ff/SONIC_New_Logo_2020.svg')";
-        }
-
-
-        if (_Restaurant['restaurant_chain'] === "KFC") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/sco/b/bf/KFC_logo.svg')";
-        }
-
-
-        if (_Restaurant['restaurant_chain'] === "Panda Express") {
-            el.style.backgroundImage = "URL('https://cdn.worldvectorlogo.com/logos/panda-express-logo-1.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Subway") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Little Caesars") {
-            el.style.backgroundImage = "URL('https://seeklogo.com/images/L/little-caesars-pizza-logo-95340DB81C-seeklogo.com.png')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Jamba") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/6/6f/Jamba_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "In-N-Out") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/f/f2/InNOut.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Tim Hortons") {
-            el.style.backgroundImage = "URL('https://brandeps.com/logo-download/T/Tim-Hortons-logo-vector-01.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Five Guys") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/8/80/Five_Guys_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Dairy Queen") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/a/ae/Dairy_Queen_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Jack In The Box") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/6/6e/Jack_in_the_Box_2009_logo.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Benihana") {
-            el.style.backgroundImage = "URL('https://cdn.worldvectorlogo.com/logos/benihana-grill.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Chick-fil-A") {
-            el.style.backgroundImage = "URL('https://cdn.cdnlogo.com/logos/c/10/chick-fil-a.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Carrabba's Italian Grill") {
-            el.style.backgroundImage = "URL('https://cdn.cdnlogo.com/logos/c/22/carrabbas.svg')";
-        }
-
-        if (_Restaurant['restaurant_chain'] === "Fuddruckers ") {
-            el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_of_Fuddruckers.svg')";
-    }
-    // color of the marker based on operational status
-
-    /*if (_Restaurant['still_operational'] === 'yes') {
-        color = '#258f2e'
+    if (_Restaurant['restaurant_chain'] === "McDonald's") {
+        el.style.backgroundImage = "URL('https://logos-download.com/wp-content/uploads/2016/03/McDonalds_Logo_2018.svg')";
     }
 
-    if (_Restaurant['still_operational'] === 'no') {
-        color = '#a61c1c'
-    }*/
+    if (_Restaurant['restaurant_chain'] === "Pizza Hut") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/sco/d/d2/Pizza_Hut_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "T.G.I. Friday's") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/4/44/Tgi_fridays_logo13.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Waffle House") {
+        el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Waffle_House/Waffle_House-Logo.wine.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Dunkin' Donuts") {
+        el.style.backgroundImage = "URL('https://logotyp.us/files/dunkin-donuts.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Starbucks") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Chipotle Mexican Grill") {
+        el.style.backgroundImage = "URL('https://cdn.worldvectorlogo.com/logos/chipotle-mexican-grill.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Nathan's Famous ") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/7/75/Nathan%27s_Famous.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Wendy's") {
+        el.style.backgroundImage = "URL('https://brandeps.com/logo-download/W/Wendys-logo-vector-01.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Hooters") {
+        el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Hooters/Hooters-Logo.wine.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Blimpie") {
+        el.style.backgroundImage = "URL('https://cdn.freebiesupply.com/logos/large/2x/blimpie-2-logo-svg-vector.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Taco Bell") {
+        el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Taco_Bell/Taco_Bell-Logo.wine.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Burger King") {
+        el.style.backgroundImage = "URL('https://www.logo.wine/a/logo/Burger_King/Burger_King-Logo.wine.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Sbarro's") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/e/ef/Sbarro_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "White Castle") {
+        el.style.backgroundImage = "URL('https://static.wikia.nocookie.net/logopedia/images/1/13/White_Castle_1.svg/')";
+    }
+
+
+    if (_Restaurant['restaurant_chain'] === "Sonic") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/f/ff/SONIC_New_Logo_2020.svg')";
+    }
+
+
+    if (_Restaurant['restaurant_chain'] === "KFC") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/sco/b/bf/KFC_logo.svg')";
+    }
+
+
+    if (_Restaurant['restaurant_chain'] === "Panda Express") {
+        el.style.backgroundImage = "URL('https://cdn.worldvectorlogo.com/logos/panda-express-logo-1.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Subway") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Little Caesars") {
+        el.style.backgroundImage = "URL('https://seeklogo.com/images/L/little-caesars-pizza-logo-95340DB81C-seeklogo.com.png')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Jamba") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/6/6f/Jamba_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "In-N-Out") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/f/f2/InNOut.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Tim Hortons") {
+        el.style.backgroundImage = "URL('https://brandeps.com/logo-download/T/Tim-Hortons-logo-vector-01.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Five Guys") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/8/80/Five_Guys_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Dairy Queen") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/a/ae/Dairy_Queen_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Jack In The Box") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/6/6e/Jack_in_the_Box_2009_logo.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Benihana") {
+        el.style.backgroundImage = "URL('https://cdn.worldvectorlogo.com/logos/benihana-grill.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Chick-fil-A") {
+        el.style.backgroundImage = "URL('https://cdn.cdnlogo.com/logos/c/10/chick-fil-a.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Carrabba's Italian Grill") {
+        el.style.backgroundImage = "URL('https://cdn.cdnlogo.com/logos/c/22/carrabbas.svg')";
+    }
+
+    if (_Restaurant['restaurant_chain'] === "Fuddruckers ") {
+        el.style.backgroundImage = "URL('https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_of_Fuddruckers.svg')";
+    }
 
     // map center point
     new mapboxgl.Marker(el)
-        //{
-        //color: color
-        //})
         .setLngLat([_Restaurant.longitude, _Restaurant.latitude])
         .setPopup(popup)
         .addTo(map);
