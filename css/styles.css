@@ -25,12 +25,13 @@ body {
 }
 
 .marker {
-    display: block;
-    border: none;
+    background-image: URL("");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     cursor: pointer;
-    padding: 0;
-}
+  }
 
 .sidebar {
     position: absolute;
